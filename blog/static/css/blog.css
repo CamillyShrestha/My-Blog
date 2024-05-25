@@ -1,0 +1,84 @@
+/* Custom CSS for the blog */
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Header styles */
+header {
+    padding: 20px 0;
+}
+
+/* Footer styles */
+footer {
+    padding: 20px 0;
+}
+
+/* Main content styles */
+#content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar styles */
+#sidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Post styles */
+.post {
+    margin-bottom: 30px;
+}
+
+.post h2 {
+    color: #343a40;
+}
+
+.post p {
+    color: #6c757d;
+}
+
+/* Latest posts styles */
+.latest-posts {
+    list-style: none;
+    padding: 0;
+}
+
+.latest-posts li {
+    margin-bottom: 10px;
+}
+
+.latest-posts li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.latest-posts li a:hover {
+    text-decoration: underline;
+}
+
+/* Most commented posts styles */
+.most-commented {
+    list-style: none;
+    padding: 0;
+}
+
+.most-commented li {
+    margin-bottom: 10px;
+}
+
+.most-commented li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.most-commented li a:hover {
+    text-decoration: underline;
+}
